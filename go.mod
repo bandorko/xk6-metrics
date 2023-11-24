@@ -1,4 +1,4 @@
-module xk6-metrics
+module github.com/bandorko/xk6-metrics
 
 go 1.21.4
 
