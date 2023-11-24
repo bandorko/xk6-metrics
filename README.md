@@ -1,10 +1,12 @@
-# xk6-file
+# xk6-metrics
 [k6](https://github.com/grafana/k6) extension for accessing various derived metrics.
 
 Currently supported metrics:
 - drop_percentage
 
 ## Build
+you can build the custom k6 binary with [xk6](https://github.com/grafana/xk6)
+
 ```shell
 xk6 build --with github.com/bandorko/xk6-metrics@latest
 ```
