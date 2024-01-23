@@ -83,6 +83,8 @@ func (rm *RootModule) NewModuleInstance(vu modules.VU) modules.Instance {
 
 func (mi *ModuleInstance) Exports() modules.Exports {
 	return modules.Exports{
-		Named: make(map[string]interface{}),
+		Named: map[string]interface{}{
+			"registry": mi.vu.InitEnv().Registry,
+		},
 	}
 }

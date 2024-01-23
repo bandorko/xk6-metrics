@@ -1,6 +1,5 @@
 import { sleep } from 'k6';
-import { Gauge } from 'k6/metrics';
-import metrics from  'k6/x/metrics';
+import metrics from 'k6/x/metrics';
 
 export const options = {
     discardResponseBodies: true,
